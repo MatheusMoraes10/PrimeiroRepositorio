@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- Criar o formulario -->
+    <form action="#">
+        <!-- Tag para entrada de informações -->
+        <!-- Campo nome -->
+        <label for="">Nome</label>
+        <input type="text" required><br>
+
+        <!-- Campo Idade -->
+        <label for="">Idade</label>
+        <input type="number" required> <br>
+
+        <!-- Campo Nota -->
+        <label for="">Nota</label>
+        <input type="number" required> <br>
+
+        <!-- Input para aprovado, reprovado e Recuperação-->
+        <label for="">O Aluno está:</label><br>
+        <!-- Aprovado -->
+        <input type="radio" name="status" id="Aprov">
+        <Label for="Aprov">Aprovado</Label><br>
+
+        <!-- Reprovado -->
+        <input type="radio" name="status" id="Reprov">
+        <label for="Reprov">Reprovado</label><br>
+
+        <!-- Recuperação -->
+        <input type="radio" name="status" id="Recup">
+        <label for="Recup">Recuperação</label><br>
+        <br>
+        <!-- Checkbox para exercicios concluidos -->
+        <label for="">Exercícios concluidos</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">Exercício 1</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">Exercício 2</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">Exercício 3</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">Exercício 4</label><br>
+        <br>
+        <!-- Tipo Range -->
+        <label for="">Voce gostou do cruso</label><br>
+        <label for="">Sim</label>
+        <input type="range" name="" id="">
+        <label for="">Não</label><br>
+        <br>
+        <!-- Lista de Intituições 4 -->
+        <label for="Lista1">Lista de Instituições</label><br>
+        <select name="" id="Lista1">
+            <option value="">IOS</option>
+            <option value="">PROA</option>
+            <option value="">Generation Brasil</option>
+            <option value="">Recode</option>
+        </select><br>
+        <br>
+        <!-- Datalist comida 5 opções (Lista suspensa) -->
+        <label>Lista de comida</label><br>
+        <input type="list" list="comida">
+        <datalist id="comida">
+            <option value="Fígado"></option>
+            <option value="Arroz"></option>
+            <option value="Fogazza"></option>
+            <option value="Feijão"></option>
+            <option value="Abacate"></option>
+        </datalist><br>
+        <br>
+        <!-- Campo de Texto -->
+        <label for="">local para lamentações</label><br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Deixe aqui ser comentário..."></textarea><br>
+
+        <!-- Tag botão para enviar formulário -->
+        <input type="submit" value="Enviar">
+
+
+       
+    </form>
+</body>
+</html>

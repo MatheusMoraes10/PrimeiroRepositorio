@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Posicão</th> <th>Nome do time</th>    
+        </tr>
+        <tr>
+            <td>1°</td> <td>Corinthians</td>
+        </tr>
+        <tr>
+            <td>2°</td> <td>Agua Santa</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <table>
+        <tr>
+            <th>Verduras</th> <th>Produtos de Limpeza</th> <th>Frutas</th>
+        </tr>
+        <tr>
+            <td>Espinafre   </td> 
+            <td>| Cif Cremoso</td> 
+            <td>| BANANA</td>
+        </tr>
+        <tr>
+            <td>Cenoura     </td> 
+            <td>| Desengordurante Mr</td> 
+            <td>| MAÇÃ</td>
+        </tr>
+        <tr>
+            <td>Brócolis    </td> 
+            <td>| Casa & Perfume – Azul</td> 
+            <td>| MELANCIA</td>
+        </tr>
+        <tr>
+            <td>Alho        </td> 
+            <td>| Veja Concentrado</td> 
+            <td>| ABACATE</td>
+        </tr>
+        <tr>
+            <td>Couve de Bruxelas</td> 
+            <td>| Destac Porcelanato</td> 
+            <td>| UVA</td>
+        </tr>
+        <tr>
+            <td>Couve Kale</td> 
+            <td>| Cera Líquida Ingleza Maxx Laminados</td> 
+            <td>| LARANJA</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <h1>colspan e rowspan</h1>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>Verduras</th> <th>Produtos de Limpeza</th> <th>Frutas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Frutas</td>
+                <td>Quantidade</td>
+                <td>Vendidos</td>
+            </tr>
+            <tr>
+                <td>Maça</td>
+                <td rowspan="2">5</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Pera</td>
+                <td>6</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>9</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Caju</td>
+                <td>50</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total Vendido</td>
+                <td colspan="2">8</td>
+            </tr>
+        </tfoot>
+        <br>
+        <!-- O Colspan empurra o conteúdo das outras células deve ser apagado a empurrada se não quiser ser visualizada-->
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th>Verduras</th> <th>Produtos de Limpeza</th> <th>Frutas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Frutas</td>
+                    <td>Quantidade</td>
+                    <td>Vendidos</td>
+                </tr>
+                <tr>
+                    <td>Maça</td>
+                    <td rowspan="2">5</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Pera</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Banana</td>
+                    <td>9</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Caju</td>
+                    <td>50</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total Vendido</td>
+                    <td colspan="2">8</td>
+                </tr>
+            </tfoot>
+
+</body>
+</html>
