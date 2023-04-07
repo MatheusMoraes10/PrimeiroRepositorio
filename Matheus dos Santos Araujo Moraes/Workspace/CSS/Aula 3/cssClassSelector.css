@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+body {
+    background-color: lightblue;
+}
+
+.generico {
+    background-color: gold;
+    color: black;
+    line-height: 200%;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 3px 3px 5px lightblue;
+}
+
+p {
+    background-color: blue;
+    color: white;
+}
+
+p.especifico_destaque {
+    font-weight: bold;
+    background-color: lightcoral;
+    color: black;
+}
+
+.italico {
+   font-style: italic;
+}
