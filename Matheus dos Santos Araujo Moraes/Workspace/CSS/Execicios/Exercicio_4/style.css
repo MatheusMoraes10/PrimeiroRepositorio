@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+* {
+    background-color: #E8F1F2;
+    color: #13293D;
+    font-family: cursive;
+    font-size: 1rem;
+}
+
+.configs {
+    border: 1px solid #1B98E0;
+    text-align: center;
+}
+
+.configs h3 {
+    color: #006494;
+}
