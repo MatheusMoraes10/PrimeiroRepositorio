@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+div {
+    border: 2px solid;
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    height: 300px;
+}
+
+.padding {
+    /* OU margin: top right bottom left */
+    /* Coloco em px etc com espaço entre as npumerações */
+    /* Unico valor aplica para todo mundo  margin: 25px*/
+    /* Se colocar só 2 valores será acrescentado para o top e para o bottom margin: 25px 25px; */
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.margin {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+* {
+    font-family: cursive;
+    font-weight: 800;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+}
+
+figure {
+    margin: 15px;
+}
+
+div {
+    border: 1px solid #000;
+    background-color: lightblue;
+}
