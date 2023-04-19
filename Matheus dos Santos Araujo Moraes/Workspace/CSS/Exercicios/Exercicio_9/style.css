@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+body {
+    float: right;
+    width: 80%;
+}
+
+p:first-of-type {
+    background-color: lightblue;
+}
+p:nth-child(3) {
+    background-color: gold;
+}
+
+p:last-child {
+    background-color: sandybrown;
+}
+
+p:nth-last-child(2) {
+    background-color: lightcoral;
+}
+
+a:link {
+    background-color: black;
+    color: gold;
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: blue;
+}
+
+p::after {
+    content: ">>";
+    color: red;
+}
+
+header::first-line {
+    text-decoration: underline;
+}
+
+
