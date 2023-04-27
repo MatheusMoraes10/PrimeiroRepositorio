@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.brdr {
+    border: 2px solid #000;
+    height: 400px;
+}
+
+.dv1 {
+    float: left;
+}
+
+.dv2 {
+    float: right;
+}
+
