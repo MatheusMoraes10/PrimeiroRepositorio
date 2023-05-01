@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.flx {
+    display: flex;
+    align-items: start;
+}
+
+.flx div {
+    border: 3px solid black;
+    margin: 5px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.flx1 {
+    flex: 2;
+    order: 4;
+}
+
+.flx2 {
+    flex: 2;
+    order: 2;
+}
+
+.flx3 {
+    flex: 1;
+    order: 1;
+}
+
+.flx4 {
+    flex: 5;
+    order: 3;
+    align-self: flex-end;
+}
