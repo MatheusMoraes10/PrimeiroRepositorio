@@ -20,7 +20,8 @@ body {
 
 .brdr {
     border: 2px solid #000;
-    height: 400px;
+    height: auto;
+    width: auto;
 }
 
 .dv1 {
@@ -31,3 +32,31 @@ body {
     float: right;
 }
 
+@media(max-width:414px) {
+    * {
+        font-size: 14px;
+        text-align: justify;
+        min-width: 193px;
+    }
+
+    body {
+        margin-right: 20%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    p {
+     padding: 10px 10px 10px 0px;
+    }
+
+    .brdr {
+        height: auto;
+        margin-bottom: 5px;
+    }
+}
