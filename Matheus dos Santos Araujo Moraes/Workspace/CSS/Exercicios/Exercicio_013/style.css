@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    border: 1px solid white;
+    justify-items: center;
+    align-items: center;
+    column-gap: 5px;
+    row-gap: 5px;
+    grid-template-areas: "a a b b" "c c c c" "d d d d" ". e e ." "f f f f" "g g h i";
+}
+
+p {
+    border: 1px solid;
+    width: 30%;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.ita {
+    grid-area: a;
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-self: end;
+}
+
+.itb {
+    grid-area: b;
+    background-color: blue;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-self: end;
+}
+
+.itc {
+    grid-area: c;
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    background-color: aqua;
+    align-self: end;
+}
+
+.itd {
+    grid-area: d;
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+    background-color: aquamarine;
+    align-self: end;
+}
+
+.ite {
+    grid-area: e;
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+    background-color: blueviolet;
+    place-self: start end;
+}
+
+.itf {
+    grid-area: f;
+    grid-column: 1 / 5;
+    grid-row: 5 / 6;
+    background-color: chartreuse;
+    place-self: start end;
+}
+
+.itg {
+    grid-area: g;
+    background-color: darkslateblue;
+    place-self: center stretch;
+}
+
+.ith {
+    grid-area: h;
+    background-color: darkblue;
+    place-self: center stretch;
+}
+
+.iti {
+    grid-area: i;
+    background-color: darkorange;
+    place-self: center stretch;
+}
