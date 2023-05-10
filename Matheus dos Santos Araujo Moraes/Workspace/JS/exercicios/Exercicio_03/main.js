@@ -6,11 +6,11 @@ let t3 = "Em caixa baixa: "
 
 let t4 = "Removendo os espaços..."
 
-var f1 = "   Banana"
+let f1 = "   Banana"
 console.log(f1)
 console.log(t4)
-var f1 = f1.replace(f1, f1.trim())
-var f1 = f1.replace(f1, f1.toLowerCase())
+f1 = f1.replace(f1, f1.trim())
+f1 = f1.replace(f1, f1.toLowerCase())
 console.log(f1)
 console.log(t1 + f1.length)
 
@@ -21,21 +21,21 @@ console.log(t2 + f2.substring(0, 3))
 f2 = f2.replace(f2, f2.toLowerCase())
 console.log(t3 + f2)
 
-var f3 = "Manga"
+let f3 = "Manga"
 console.log(f3)
 console.log(t1 + f3.length)
 console.log(t2 + f3.substring(0, 3))
 f3 = f3.replace(f3, f3.toLowerCase())
 console.log(t3 + f3)
 
-var f4 = "Amora"
+let f4 = "Amora"
 console.log(f4)
 console.log(t1 + f4.length)
 console.log(t2 + f4.substring(0, 3))
 f4 = f4.replace(f4, f4.toLowerCase())
 console.log(t3 + f4)
 
-var f5 = "Laranja"
+let f5 = "Laranja"
 console.log(f5)
 console.log(t1 + f5.length)
 console.log(t2 + f5.substring(0, 3))
