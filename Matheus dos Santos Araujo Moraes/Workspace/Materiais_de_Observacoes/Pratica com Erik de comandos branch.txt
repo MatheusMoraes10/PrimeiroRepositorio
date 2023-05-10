@@ -1,0 +1,395 @@
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (Master)
+$ gis checkout Master
+bash: gis: command not found
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (Master)
+$ git checkout Main
+Switched to branch 'Main'
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (Main)    
+$ git branch TesteMerge
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (Main)    
+$ git checkout Main
+Already on 'Main'
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (Main)    
+$ gis checkout Master
+bash: gis: command not found
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (Main)    
+$ git checkout Master
+Switched to branch 'Master'
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (Master)  
+$ git checkout Testebranch
+error: Your local changes to the following files would be overwritten by checkout:
+        DevWeb_2023_01/.gitignore
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (Master)  
+$ git checkout TesteBranch
+error: Your local changes to the following files would be overwritten by checkout:
+        DevWeb_2023_01/.gitignore
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (Master)  
+$ git checkout TesteMerge
+Switched to branch 'TesteMerge'
+M       DevWeb_2023_01/.gitignore
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (TesteMerge)
+$ git add .
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (TesteMerge)
+$ git commit -m "Teste de Branchs"
+[TesteMerge b16d571] Teste de Branchs
+ 1 file changed, 2 insertions(+)
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (TesteMerge)
+$ git push
+fatal: The current branch TesteMerge has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin TesteMerge 
+
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (TesteMerge)
+$ git push
+fatal: The current branch TesteMerge has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin TesteMerge 
+
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (TesteMerge)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'. 
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (main)    
+$ git push
+Everything up-to-date
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (main)    
+$ git add.
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (main)    
+$ git add .
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (main)    
+$ git commit -m "Teste de Branchs"
+On branch main
+Your branch is up to date with 'origin/main'. 
+
+nothing to commit, working tree clean
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (main)    
+$ git push
+Everything up-to-date
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (main)    
+$ git branch CloneDaMaster
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (main)    
+$ git checkout CloneDaMaster
+Switched to branch 'CloneDaMaster'
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git branch CloneDaMaster2
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git branch
+* CloneDaMaster
+  CloneDaMaster2
+  Master
+  TesteBranch
+  TesteMerge
+  main
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git checkout CloneDaMaster2
+Switched to branch 'CloneDaMaster2'
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster2)
+$ git status
+On branch CloneDaMaster2
+nothing to commit, working tree clean
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster2)
+$ git status
+On branch CloneDaMaster2
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        TestePipeLIne.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster2)
+$ git add .
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMa
+[CloneDaMaster2 3dd04db] Testando Minhas Branchegit commit -m "Testando Minhas Branche" 
+ 1 file changed, 1 insertion(+)
+ create mode 100644 DevWeb_2023_01/TestePipeLIne.txt
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster2)
+$ git push
+fatal: The current branch CloneDaMaster2 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin CloneDaMaster2
+
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster2)
+$ git push --set-upstream origin CloneDaMaster2
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 6 threads       
+Compressing objects: 100% (3/3), done.        
+Writing objects: 100% (4/4), 425 bytes | 425.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'CloneDaMaster2' on GitHub by visiting:
+remote:      https://github.com/MatheusMoraes10/PrimeiroRepositorio/pull/new/CloneDaMaster2 
+remote:
+To https://github.com/MatheusMoraes10/PrimeiroRepositorio.git
+ * [new branch]      CloneDaMaster2 -> CloneDaMaster2
+branch 'CloneDaMaster2' set up to track 'origin/CloneDaMaster2'.
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster2)
+$ git branch
+  CloneDaMaster
+* CloneDaMaster2
+  Master
+  TesteBranch
+  TesteMerge
+  main
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster2)
+$ git checkout CloneDaMaster
+Switched to branch 'CloneDaMaster'
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)                                        ária"t commit -m "Primeira branche secund" 
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git status
+On branch CloneDaMaster
+nothing to commit, working tree clean
+
+$ sh --set-upstream origin CloneDaMaster
+sh: --set-upstream: invalid option
+Usage:  sh [GNU long option] [option] ...
+        sh [GNU long option] [option] script-file ...
+GNU long options:
+        --debug
+        --debugger
+        --dump-po-strings
+        --dump-strings
+        --help
+        --init-file
+        --login
+        --noediting
+        --noprofile
+        --norc
+        --posix
+        --protected
+        --rcfile
+        --restricted
+        --verbose
+        --version
+        --wordexp
+Shell options:
+        -ilrsD or -c command or -O shopt_option         (invocation only)
+        -abefhkmnptuvxBCHP or -o option
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git branch
+* CloneDaMaster
+  CloneDaMaster2
+  Master
+  TesteBranch
+  TesteMerge
+  main
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git status
+On branch CloneDaMaster
+nothing to commit, working tree clean
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git push
+fatal: The current branch CloneDaMaster has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin CloneDaMaster
+
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git push --set-upstream origin CloneDaMaster
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'CloneDaMaster' on GitHub by visiting:
+remote:      https://github.com/MatheusMoraes10/PrimeiroRepositorio/pull/new/CloneDaMaster
+remote:
+To https://github.com/MatheusMoraes10/PrimeiroRepositorio.git
+ * [new branch]      CloneDaMaster -> CloneDaMaster
+branch 'CloneDaMaster' set up to track 'origin/CloneDaMaster'.
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git checkout CloneDaMaster2
+Switched to branch 'CloneDaMaster2'
+Your branch is up to date with 'origin/CloneDaMaster2'.
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster2)
+$ git status
+On branch CloneDaMaster2
+Your branch is up to date with 'origin/CloneDaMaster2'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    TestePipeLIne.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        testeBranchs.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster2)
+$ git add .
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster2)
+$ git commit -m " testando minhas branchs "
+[CloneDaMaster2 5309415]  testando minhas branchs
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ delete mode 100644 DevWeb_2023_01/TestePipeLIne.txt
+ create mode 100644 DevWeb_2023_01/testeBranchs.txt
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster2)
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 413 bytes | 413.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/MatheusMoraes10/PrimeiroRepositorio.git
+   3dd04db..5309415  CloneDaMaster2 -> CloneDaMaster2
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster2)
+$ git checkout CloneDaMaster
+Switched to branch 'CloneDaMaster'
+Your branch is up to date with 'origin/CloneDaMaster'.
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git merge CloneDaMaster2
+Updating c09559f..5309415
+Fast-forward
+ DevWeb_2023_01/testeBranchs.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 DevWeb_2023_01/testeBranchs.txt
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MatheusMoraes10/PrimeiroRepositorio.git
+   c09559f..5309415  CloneDaMaster -> CloneDaMaster
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git status
+On branch CloneDaMaster
+Your branch is up to date with 'origin/CloneDaMaster'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   testeBranchs.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git push
+Everything up-to-date
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git push
+Everything up-to-date
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git commit -m "Atualizei o meu teste de branches"
+On branch CloneDaMaster
+Your branch is up to date with 'origin/CloneDaMaster'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   testeBranchs.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git status
+On branch CloneDaMaster
+Your branch is up to date with 'origin/CloneDaMaster'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   testeBranchs.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git push
+Everything up-to-date
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git add .
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git commit -m "Atualizei o meu teste de branches"
+[CloneDaMaster da44eed] Atualizei o meu teste de branches
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 417 bytes | 417.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/MatheusMoraes10/PrimeiroRepositorio.git
+   5309415..da44eed  CloneDaMaster -> CloneDaMaster
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (CloneDaMaster)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (main)
+$ git merge CloneDaMaster]
+merge: CloneDaMaster] - not something we can merge
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (main)
+$ git merge CloneDaMaster
+Updating c09559f..da44eed
+Fast-forward
+ DevWeb_2023_01/testeBranchs.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+ create mode 100644 DevWeb_2023_01/testeBranchs.txt
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (main)
+$ git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MatheusMoraes10/PrimeiroRepositorio.git
+   c09559f..da44eed  main -> main
+
+Turma Noite@PC-IOS-3HG47Z2 MINGW64 ~/Documents/PrimeiroRepositorio/DevWeb_2023_01 (main)
