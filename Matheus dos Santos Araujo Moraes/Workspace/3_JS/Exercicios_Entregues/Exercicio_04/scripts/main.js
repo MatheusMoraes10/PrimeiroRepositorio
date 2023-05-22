@@ -1,9 +1,13 @@
 let num = 7
 
-console.log(`O Número escolhido foi: ${num}`)
+let num2 = 10
 
-if(num % 2 == 0){
-    console.log(`${num} É PAR`)
+console.log(`Variavel 1: ${num}`)
+
+console.log(`Variavel 2: ${num2}`)
+
+if(num > num2){
+    console.log(`Variavel 1 é a maior pois: ${num} é maior que: ${num2}`)
 }else{
-    console.log(`${num} É IMPAR`)
+    console.log(`Variavel 2 é a maior pois: ${num2} é maior que: ${num}`)
 }
