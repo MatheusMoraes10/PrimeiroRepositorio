@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 15 JS</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        .login-container {
+            border: 2px solid #0059ff;
+            padding: 20px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <label for="usuario">Usuário:</label>
+        <input type="text" id="usuario"><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha"><br>
+
+        <label for="cargo">Cargo:</label>
+        <select id="cargo">
+            <option value="1">Estagiário</option>
+            <option value="2">Trainee</option>
+            <option value="3">Analista</option>
+            <option value="4">JR</option>
+            <option value="5">SN</option>
+            <option value="6">PL</option>
+            <option value="7">Líder Técnico</option>
+            <option value="8">CEO</option>
+        </select><br>
+
+        <button onclick="realizarLogin()">Entrar</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

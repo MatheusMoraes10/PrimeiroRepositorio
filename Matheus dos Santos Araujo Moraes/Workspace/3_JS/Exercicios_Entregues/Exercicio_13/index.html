@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio 13 JS</title>
+    <style>
+        .zebrado{
+            background-color: lightgray;
+        }
+    </style>
 </head>
+
 <body>
-      
+    <ul id="minhaLista" class="lista" name="lista1">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+    <button onclick="alterarBackgroundColor()">Alterar backgroundColor</button>
+    <button onclick="alterarFontWeight()">Alterar fontWeight</button>
+    <button onclick="aplicarEfeitoZebrado()">Criar efeito zebrado na lista</button>
+    <button onclick="incluirBorderBottom()">Incluir borderBottom</button>
+    <button onclick="removerElemento()">Remover elemento da lista</button>
+    <button onclick="recuperarElemento()">Recuperar elemento da lista</button>
+    <script src="js/main.js"></script>
 </body>
 </html>
