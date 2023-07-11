@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+section {
+  background-color: lightgray;
+  padding: 20px;
+}
+
+footer {
+  background-color: darkgray;
+  color: white;
+  padding: 10px;
+}
